@@ -9,6 +9,7 @@ const maxSubarray = (arr) => {
     currMax = Math.max(arr[i] + currMax, arr[i]);
     GlobalMax = Math.max(GlobalMax, currMax);
   }
+
   return GlobalMax;
 };
 
